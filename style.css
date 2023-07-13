@@ -1,0 +1,64 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+div{
+    background-color: aqua;
+    height: 38px;
+}
+     
+
+
+body{    font-family: 'Montserrat', sans-serif;
+   
+    color: #000;
+}
+#contenedor {
+    background-color: rgb(34, 121, 128);
+    position: absolute;
+    inset: 0;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    text-align: center;
+
+
+}
+#calculadora{
+    background-color: aliceblue;
+    color: aquamarine;
+    width: 50%;
+    float: left;
+}
+#detalle{
+    background-color: aqua;
+    color: aqua;
+    width: 50%;
+    float: left;
+
+}
+.contenido{
+    background-color: aquamarine;
+    color: blue;
+    width: 58%;
+    height: 100%;
+    float: left;
+}
+input{
+    width: 70%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #eee;
+}
+button{
+    font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 30px;
+	background-color: #FF416C;
+	border: 1px solid #FF416C;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+}
+button active{
+    transform: scale(0.95);
+}
